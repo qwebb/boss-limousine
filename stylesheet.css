@@ -1,0 +1,32 @@
+/* style sheet */
+/*
+h1 {
+  float:left;
+
+}
+nav {
+  float:left;
+
+}
+*/
+#company {
+  color:white;
+
+}
+#image {
+  position: static;
+
+}
+#gallery{
+  background-color: #18181b;
+
+}
+#gallery-text{
+  color:white;
+
+}
+/*
+body {
+    background-image: url("houston-skyline.jpg");
+    background-color: #cccccc;
+}\*/
