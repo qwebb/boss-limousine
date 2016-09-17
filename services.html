@@ -31,7 +31,34 @@
 						<p>We provide excellent service for any occasion!</p>
 					</header>
 					<div class="box">
-						<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
+							<span class="image featured"><!--<img src="images/h2houston.jpg" alt="" />-->
+								<a href="gallery.html">
+								
+								<img class="mySlides" src="images/limowedding.jpg">
+								<img class="mySlides" src="images/quinceaneralimo.jpg">
+								<img class="mySlides" src="images/promlimo.jpg">
+								<img class="mySlides" src="images/nrg.jpg">
+								<img class="mySlides" src="images/bachlimo.jpg">
+
+								<img class="mySlides" src="images/couples.png">
+							</a>
+								<script>
+								var slideIndex = 0;
+								carousel();
+								function carousel() {
+						    var i;
+						    var x = document.getElementsByClassName("mySlides");
+						    for (i = 0; i < x.length; i++) {
+						      x[i].style.display = "none";
+						    }
+						    slideIndex++;
+						    if (slideIndex > x.length) {slideIndex = 1}
+						    x[slideIndex-1].style.display = "block";
+						    setTimeout(carousel, 4000); // Change image every 2 seconds
+								}
+								</script>
+							</span>
+
 						<!--<h3>This is a subheading</h3>
 						<p>Cep risus aliquam gravida cep ut lacus amet. Adipiscing faucibus nunc placerat. Tempus adipiscing turpis non blandit accumsan eget lacinia nunc integer interdum amet aliquam ut orci non col ut ut praesent. Semper amet interdum mi. Phasellus enim laoreet ac ac commodo faucibus faucibus. Curae ante vestibulum ante. Blandit. Ante accumsan nisi eu placerat gravida placerat adipiscing in risus fusce vitae ac mi accumsan nunc in accumsan tempor blandit aliquet aliquet lobortis. Ultricies blandit lobortis praesent turpis. Adipiscing accumsan adipiscing adipiscing ac lacinia cep. Orci blandit a iaculis adipiscing ac. Vivamus ornare laoreet odio vis praesent nunc lorem mi. Erat. Tempus sem faucibus ac id. Vis in blandit. Nascetur ultricies blandit ac. Arcu aliquam. Accumsan mi eget adipiscing nulla. Non vestibulum ac interdum condimentum semper commodo massa arcu.</p>
 						<div class="row">
@@ -68,12 +95,10 @@
 			<!-- Footer -->
 				<footer id="footer">
 					<ul class="icons">
-						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>
-						<li><a href="#" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
+						<li><a href="https://twitter.com/BossLimoHouston" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.facebook.com/bosslimousine/?fref=ts" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.instagram.com/bosslimousinehouston/?hl=en" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://plus.google.com/u/0/110020174189431109620" class="icon fa-google-plus"><span class="label">Google+</span></a></li>
 					</ul>
 					<ul class="copyright">
 						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
